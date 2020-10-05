@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- fontawesome css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Corpoarte EduMM</title>
+  </head>
+  <body>
+    <!-- modal box -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog custom-modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="p-4 mb-0 custom-inner-thankicon">
+              <img src="img/welcome.png" />
+              <h6 class="font-weight-normal pt-4 pb-2">
+                We're excited to have you join over 1 million teachers using
+                Educate Myanmar.
+              </h6>
+              <button
+                type="button"
+                class="btn btn-sm btn-outline-success"
+                data-dismiss="modal"
+              >
+                <h5 class="font-weight-bold pt-2">Let's get started</h5>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top navbar -->
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-light custom-bg-light pr-5 pl-5 pt-0 pb-0"
+      >
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/ED-logo.png" alt="Educate Myanmar"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown07XL"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                ><i class="fa fa-bell"></i
+              ></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown07XL">
+                <a class="dropdown-item" href="#">My Courses</a>
+                <a class="dropdown-item" href="#">Setting</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle userprofile"
+                href="#"
+                id="dropdown07XL"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="img/user.jpg" alt="userimage" />User Name</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown07XL">
+                <a class="dropdown-item" href="#">My Courses</a>
+                <a class="dropdown-item" href="#">Setting</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- content -->
+    <section>
+      <div class="content">
+        <div class="container-fluid p-5">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card p-4 custom-card">
+                <div class="card-body">
+                  <form id="regForm">
+                    <h1 id="register"></h1>
+                    <div class="all-steps" id="all-steps">
+                      <span class="step"></span> <span class="step"></span>
+                      <span class="step"></span> <span class="step"></span>
+                    </div>
+                    <div class="tab">
+                      <div class="row">
+                        <div class="col-md-5 img-responsive">
+                          <img
+                            src="img/share-yk.jpg"
+                            alt="Share Your Knowledge"
+                          />
+                        </div>
+                        <div class="col-md-7">
+                          <h3 class="font-weight-bold text-success">
+                            Share Your Knowledge
+                          </h3>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap
+                            into electronic typesetting, remaining essentially
+                            unchanged.
+                          </p>
+                          <h5 class="pt-2 pb-2 font-weight-bold">
+                            What kind of teaching have you done before?
+                          </h5>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios1"
+                              value="option1"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios1"
+                            >
+                              In person, informally
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios2"
+                              value="option2"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios2"
+                            >
+                              In person, professionally
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios3"
+                              value="option3"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios3"
+                            >
+                              Online
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios4"
+                              value="option4"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios4"
+                            >
+                              Other
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab">
+                      <div class="row">
+                        <div class="col-md-5 img-responsive">
+                          <img
+                            src="img/share-yk.jpg"
+                            alt="Share Your Knowledge"
+                          />
+                        </div>
+                        <div class="col-md-7">
+                          <h3 class="font-weight-bold text-success">
+                            Create A Course
+                          </h3>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap
+                            into electronic typesetting, remaining essentially
+                            unchanged.
+                          </p>
+                          <h5 class="pt-2 pb-2 font-weight-bold">
+                            How much of a video "pro" are you?
+                          </h5>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios5"
+                              value="option5"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios5"
+                            >
+                              I'm a beginner
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios6"
+                              value="option6"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios6"
+                            >
+                              I have some Knowledge
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios7"
+                              value="option7"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios7"
+                            >
+                              I'm experienced
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios8"
+                              value="option8"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios8"
+                            >
+                              I have videos ready to upload
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tab">
+                      <div class="row">
+                        <div class="col-md-5 img-responsive">
+                          <img
+                            src="img/share-yk.jpg"
+                            alt="Share Your Knowledge"
+                          />
+                        </div>
+                        <div class="col-md-7">
+                          <h3 class="font-weight-bold text-success">
+                            Expand Your Reach
+                          </h3>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap
+                            into electronic typesetting, remaining essentially
+                            unchanged.
+                          </p>
+                          <h5 class="pt-2 pb-2 font-weight-bold">
+                            Do you have an audience to share your course with?
+                          </h5>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios9"
+                              value="option9"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios9"
+                            >
+                              Not at the moment
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios0"
+                              value="option0"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios0"
+                            >
+                              I have a samll following
+                            </label>
+                          </div>
+                          <div class="form-check custom-form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="exampleRadios"
+                              id="exampleRadios11"
+                              value="option11"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="exampleRadios11"
+                            >
+                              I have a sizeable following
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thanks-message text-center" id="text-message">
+                      <img
+                        src="https://i.imgur.com/O18mJ1K.png"
+                        width="100"
+                        class="mb-4"
+                      />
+                      <h3>Thanks for your information!</h3>
+                      <span
+                        >Your information has been saved! we will contact you
+                        shortly!</span
+                      ><br />
+                      <a
+                        href="dashboard.html"
+                        type="button"
+                        class="btn btn-outline-secondary mt-2"
+                        ><i class="fas fa-angle-double-right"></i
+                        >&nbsp;Continue</a
+                      >
+                    </div>
+                    <div style="overflow: auto" id="nextprevious">
+                      <div style="float: right">
+                        <button
+                          type="button"
+                          id="prevBtn"
+                          class="btn btn-outline-secondary"
+                          onclick="nextPrev(-1)"
+                        >
+                          Previous
+                        </button>
+                        <button
+                          type="button"
+                          id="nextBtn"
+                          class="btn btn-success"
+                          onclick="nextPrev(1)"
+                        >
+                          Next
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 pr-5 pl-5">
+      <div class="container-fluid p-0">
+        <span class="text-muted"
+          >Copyright &copy; 2020 Educate Myanmar. All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

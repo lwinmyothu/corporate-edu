@@ -1,0 +1,206 @@
+/* 
+Custom Css
+*/
+body {
+  background-color: #f7f7f7;
+  font-family: "Open Sans", "Noto Sans Myanmar", sans-serif !important;
+  font-weight: 400;
+}
+p {
+  font-size: 15px;
+}
+/* navbar */
+.navbar {
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  font-size: 14px;
+  width: 100%;
+}
+.custom-bg-light {
+  background-color: #ffffff;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.105);
+}
+.img-responsive img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+/* instuctor filling stepper */
+.tab {
+  display: none;
+}
+
+.step {
+  height: 5px;
+  width: 65px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 3rem;
+  display: inline-block;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.finish {
+  background-color: #00b050;
+}
+
+.all-steps {
+  margin-bottom: 30px;
+}
+
+.thanks-message {
+  display: none;
+}
+.custom-form-check {
+  font-size: 15px;
+}
+.custom-card {
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.custom-modal-dialog {
+  max-width: 700px !important;
+  position: relative;
+  top: 5%;
+}
+.custom-inner-thankicon img {
+  width: 100%;
+  height: auto;
+}
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+.userprofile img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.navbar-nav .dropdown {
+  line-height: 35px;
+}
+.second-navbar {
+  display: inline-block;
+  padding: 7px 25px;
+  background: #f7f7f7;
+  width: 100%;
+  box-shadow: 0 6px 18px #ededed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.second-navbar ul li:first-child {
+  border: none;
+}
+.second-navbar ul li {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+.second-navbar ul li a {
+  color: #424242;
+  font-weight: bold;
+}
+.second-navbar ul li a:hover {
+  color: #00b050;
+}
+.nav .nav-item .active {
+  color: #00b050;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.cc-bg-create {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, -0.3) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(../img/course-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#border-style:before {
+  top: 20px;
+  left: 20px;
+  border-width: 1px 0 0 1px;
+}
+#border-style:before,
+#border-style:after,
+#border-style > :last-child:before,
+#border-style > :last-child:after {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  border-color: #424242;
+  border-style: solid;
+  content: " ";
+}
+
+#border-style:after {
+  top: 20px;
+  right: 20px;
+  border-width: 1px 1px 0 0;
+}
+#border-style > :last-child:after {
+  bottom: 20px;
+  left: 20px;
+  border-width: 0 0 1px 1px;
+}
+#border-style > :last-child:before {
+  bottom: 20px;
+  right: 20px;
+  border-width: 0 1px 1px 0;
+}
+#border-style img {
+  height: auto;
+  width: 100px;
+}
+.custom-breadcrumb .breadcrumb {
+  background-color: #f7f7f7 !important;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+/* courses page */
+#sidebarNav {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background: #fff;
+}
+.main-content {
+  background-color: #f5f5f5;
+  max-height: 100%;
+}
+/** sidebar width*/
+.navbar-vertical.navbar-expand-lg {
+  display: block;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 350px;
+  overflow-y: auto;
+}
+.navbar-vertical .navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+.navbar-vertical.navbar-expand-lg .navbar-nav .nav .nav-link {
+  padding-left: 2.25rem;
+}
+.navHeading {
+  padding-left: 0.35rem;
+}
+.right-content {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
